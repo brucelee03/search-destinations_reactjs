@@ -1,13 +1,12 @@
-.bg-contianer {
+.bg-container {
   background-color: #ffffff;
   background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   overflow-y: auto;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 @media (max-width: 576px) {
@@ -47,24 +46,28 @@
     flex-direction: column;
     gap: 20px;
     list-style: none;
-    margin-right: 30px;
-    margin-top: 36px;
+    margin-right: 38px;
+    margin-top: 48px;
   }
 }
 @media (min-width: 767px) {
+  .bg-container {
+    padding: 50px;
+  }
   .heading {
     color: #000000;
     font-size: 50px;
     font-family: 'Roboto';
-    margin-left: 100px;
+    margin-right: auto;
+    margin-left: 30px;
   }
 
   .search-card {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    margin-right: auto;
+    margin-left: 30px;
     margin-bottom: 44px;
-    margin-left: 100px;
   }
   .search-icon {
     width: 29px;
@@ -86,8 +89,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     list-style: none;
-    margin: 50px 72px 50px 72px;
   }
 }
