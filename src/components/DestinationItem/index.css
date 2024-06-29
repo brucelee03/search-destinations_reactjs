@@ -1,0 +1,30 @@
+@media (max-width: 576px) {
+  .destination-card {
+    width: 100%;
+  }
+  .destination-img {
+    width: 100%;
+  }
+  .destination-name {
+    font-size: 17px;
+    color: #0f172a;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    margin-top: 10px;
+  }
+}
+@media (min-width: 767px) {
+  .destination-card {
+    width: 220px;
+  }
+  .destination-img {
+    width: 100%;
+  }
+  .destination-name {
+    font-size: 17px;
+    color: #0f172a;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    margin-top: 10px;
+  }
+}
